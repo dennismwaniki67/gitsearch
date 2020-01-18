@@ -9,3 +9,10 @@ h1{
     padding:70px;
     text-shadow: 4px 4px white; 
 }
+.label{
+    font-weight: bolder;
+    padding:18px;
+    font-size: 16px;
+    color:black;
+    font-family:arial;
+}
