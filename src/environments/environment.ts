@@ -3,9 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-  
+  production: false, 
 };
+export class ProfileService {
+   username: string;
+   client_id = "9ed2002f589731899060";
+   client_secret = "cb5cece365b5e188bcdb362de4b5053109e24d36";
+}
 
 /*
  * For easier debugging in development mode, you can import the following file
