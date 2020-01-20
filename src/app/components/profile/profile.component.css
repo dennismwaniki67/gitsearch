@@ -1,8 +1,13 @@
+*{
+    font-size: 16px;
+}
 .img{
     border-radius:50%;
     height:400px;
 }
-
+::-webkit-input-placeholder{
+    font-size: 20px;
+}
 
 h1{
     font-size: 80px;
@@ -15,8 +20,12 @@ h1{
 .label{
     font-weight: bolder;
     padding:18px;
-    font-size: 16px;
+    font-size: 20px;
     color:green;
     font-family:arial;
+}
+
+.repo{
+    border: 1px solid rgba(98, 136, 206, 0.503);
 }
 
