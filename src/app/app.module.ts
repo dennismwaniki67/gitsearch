@@ -9,18 +9,22 @@ import { ProfileService } from './services/profile.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DateCountPipe } from './date-count.pipe';
 import { HighlightDirective } from './highlight.directive';
+import { SearchComponent } from './search/search.component';
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     NavbarComponent,
     DateCountPipe,
-    HighlightDirective
+    HighlightDirective,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]

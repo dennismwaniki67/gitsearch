@@ -24,10 +24,11 @@ h1{
     color:rgb(134, 148, 134);
     font-family:arial;
 }
-
-.repo{
-    border: 1px solid rgba(98, 136, 206, 0.503);
+.card{
+    justify-content: space-around;
+    display: inline-flex;
 }
-.container{
-    background-color: brown;
+.repo{
+    margin: 5px 70px;
+    border: 1px solid rgba(98, 136, 206, 0.503);
 }
