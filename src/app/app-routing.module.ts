@@ -7,6 +7,7 @@ import { ProfileComponent} from './components/profile/profile.component'
 const routes: Routes = [
   { path: 'search', component: SearchComponent},
   { path: 'profile', component: ProfileComponent},
+  { path: '', redirectTo:"/profile", pathMatch:"full"},
 ];
 
 
