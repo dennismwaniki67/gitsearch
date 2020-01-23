@@ -22,6 +22,7 @@
                         <li class="list-group-item" *ngIf="profile.blog">{{profile.blog}}</li>
                         <li class="list-group-item" *ngIf="profile.hireable">{{profile.hireable}}</li>
                         <li class="list-group-item" *ngIf="profile.email">{{profile.email}}</li>
+                       
                      </ul>
                 </div>
 
@@ -36,6 +37,8 @@
                             <span class="label" class="btn btn-secondary"> {{profile.public_gists}} gists</span>&nbsp;
 
                             <span class="label" class="btn btn-primary"> {{profile.public_repos}} Repositories</span>
+
+                            <span class="label" class="btn btn-primary">Joined in: {{profile.created_at|date}}</span>
                         </p>
                         <hr>
                         <hr>

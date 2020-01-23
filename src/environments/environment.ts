@@ -5,12 +5,12 @@
 export const environment = {
   production: false, 
 };
+
 export class ProfileService {
    username: string;
    client_id = "9ed2002f589731899060";
    client_secret = "cb5cece365b5e188bcdb362de4b5053109e24d36";
 }
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

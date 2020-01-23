@@ -14,14 +14,14 @@ h1{
     font-weight:bold;
     text-align:center;
     padding:70px;
-    text-shadow: 4px 4px white; 
+    text-shadow: 4px 4px rgb(40, 25, 177); 
 }
 
 .label{
     font-weight: bolder;
     padding:18px;
     font-size: 20px;
-    color:green;
+    color:rgb(134, 148, 134);
     font-family:arial;
 }
 
