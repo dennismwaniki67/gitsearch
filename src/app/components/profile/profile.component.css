@@ -28,7 +28,6 @@ h1{
 .repo{
     border: 1px solid rgba(98, 136, 206, 0.503);
 }
-
-body{
+.container{
     background-color: brown;
 }
