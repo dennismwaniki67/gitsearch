@@ -77,6 +77,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## live link 
 https://dennismwaniki67.github.io/gitsearch
 
+##codebeat
+[![codebeat badge](https://codebeat.co/badges/f49819df-6e69-4d75-92e2-e70cf6982a69)](https://codebeat.co/projects/github-com-dennismwaniki67-gitsearch-master)
+
 
 ## Contacts
 
